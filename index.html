@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hotel Reverie · Historia interactiva</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,300..800;1,6..72,300..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="story-container">
+    <div class="film-frame">
+      <main class="story-node">
+        <h1>Hotel Reverie</h1>
+        <h2>Una historia interactiva</h2>
+
+        <figure class="story-figure">
+          <img src="img/castillo.jpg" width="1200" height="785"
+               alt="Castillo de Neuschwanstein en blanco y negro, con sus torres puntiagudas y su fachada clara sobre un risco cubierto de bosque, y un valle con lagos al fondo.">
+        </figure>
+
+        <p>Una película clásica en blanco y negro ha sido restaurada con una tecnología capaz de llevar a una actriz dentro de ella. Brandy ha entrado en la historia y, desde una base de control, un equipo de programadores guía cada uno de sus pasos con una voz que solo ella escucha.</p>
+        <p>Esta noche, algo falla. Tú decidirás qué hace cuando la película deja de responder.</p>
+
+        <nav class="story-choices" aria-label="Decisiones">
+          <a class="film-button" href="escena.html">Comenzar la proyección</a>
+        </nav>
+      </main>
+    </div>
+  </div>
+
+  <aside class="music-player" aria-label="Música de fondo">
+    <iframe src="https://www.youtube.com/embed/rDrEsBhQLo0?autoplay=1&amp;loop=1&amp;playlist=rDrEsBhQLo0&amp;rel=0&amp;playsinline=1"
+            title="Música de fondo de la historia"
+            allow="autoplay; encrypted-media"
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </aside>
+
+  <p class="story-credit">Chabela Juárez Vizueta<br>IG: @chabelavizueta</p>
+</body>
+</html>
